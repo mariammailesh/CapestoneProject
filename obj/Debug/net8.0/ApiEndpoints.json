@@ -1,6 +1,38 @@
 [
   {
     "ContainingType": "CapestoneProject.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "CapestoneProject.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CapestoneProject.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resetDto",
+        "Type": "CapestoneProject.DTOs.ResetPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CapestoneProject.Controllers.AuthController",
     "Method": "Signup",
     "RelativePath": "api/Auth/signup",
     "HttpMethod": "POST",
@@ -8,8 +40,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "input",
-        "Type": "CapestoneProject.DTOs.SignUps.Requests.SignUpInputDTO",
+        "Name": "signupDto",
+        "Type": "CapestoneProject.DTOs.SignupDTO",
         "IsRequired": true
       }
     ],

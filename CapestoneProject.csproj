@@ -7,16 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Helpers\Extensions\" />
     <Folder Include="Helpers\Generic\" />
-    <Folder Include="Helpers\Validations\" />
     <Folder Include="DTOs\" />
-    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

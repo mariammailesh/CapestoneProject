@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\CapestoneProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2C741C-24A3-4EBA-9639-E9E19F4125AD}|CapestoneProject.csproj|c:\\users\\user\\desktop\\capestoneproject\\capestoneproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9E2C741C-24A3-4EBA-9639-E9E19F4125AD}|CapestoneProject.csproj|solutionrelative:capestoneproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CapestoneProject.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CapestoneProject\\CapestoneProject.csproj",
+              "RelativeDocumentMoniker": "CapestoneProject.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CapestoneProject\\CapestoneProject.csproj",
+              "RelativeToolTip": "CapestoneProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T11:29:49.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

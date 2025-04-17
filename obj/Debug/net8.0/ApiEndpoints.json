@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "CapestoneProject.Controllers.AuthController",
+    "Method": "Signup",
+    "RelativePath": "api/Auth/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "CapestoneProject.DTOs.SignUps.Requests.SignUpInputDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

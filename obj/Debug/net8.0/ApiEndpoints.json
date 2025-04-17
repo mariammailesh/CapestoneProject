@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "loginDto",
-        "Type": "CapestoneProject.DTOs.LoginDTO",
+        "Name": "input",
+        "Type": "CapestoneProject.DTOs.Login.Request.LoginInputDTO",
         "IsRequired": true
       }
     ],
@@ -24,8 +24,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "resetDto",
-        "Type": "CapestoneProject.DTOs.ResetPasswordDTO",
+        "Name": "input",
+        "Type": "CapestoneProject.DTOs.ResetPassword.Request.ResetPasswordDTO",
         "IsRequired": true
       }
     ],
@@ -40,8 +40,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "signupDto",
-        "Type": "CapestoneProject.DTOs.SignupDTO",
+        "Name": "input",
+        "Type": "CapestoneProject.DTOs.SignUp.Request.SignUpInputDTO",
         "IsRequired": true
       }
     ],

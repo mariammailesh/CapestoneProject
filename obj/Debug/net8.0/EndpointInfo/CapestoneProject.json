@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/SignupDTO"
+                "$ref": "#/components/schemas/SignUpInputDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/SignupDTO"
+                "$ref": "#/components/schemas/SignUpInputDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/SignupDTO"
+                "$ref": "#/components/schemas/SignUpInputDTO"
               }
             }
           }
@@ -45,17 +45,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/LoginDTO"
+                "$ref": "#/components/schemas/LoginInputDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/LoginDTO"
+                "$ref": "#/components/schemas/LoginInputDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/LoginDTO"
+                "$ref": "#/components/schemas/LoginInputDTO"
               }
             }
           }
@@ -101,74 +101,60 @@
   },
   "components": {
     "schemas": {
-      "LoginDTO": {
-        "required": [
-          "email",
-          "password"
-        ],
+      "LoginInputDTO": {
         "type": "object",
         "properties": {
           "email": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "password": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
       },
       "ResetPasswordDTO": {
-        "required": [
-          "email",
-          "newPasswordHash"
-        ],
         "type": "object",
         "properties": {
           "email": {
-            "minLength": 1,
             "type": "string",
-            "format": "email"
+            "nullable": true
           },
           "newPasswordHash": {
-            "minLength": 6,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "SignupDTO": {
-        "required": [
-          "email",
-          "full_Name",
-          "passwordHash",
-          "phone_Number",
-          "userName"
-        ],
+      "SignUpInputDTO": {
         "type": "object",
         "properties": {
-          "full_Name": {
-            "minLength": 1,
-            "type": "string"
+          "fullName": {
+            "type": "string",
+            "nullable": true
           },
           "userName": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "email": {
-            "minLength": 1,
             "type": "string",
-            "format": "email"
+            "nullable": true
           },
-          "phone_Number": {
-            "minLength": 1,
+          "password": {
             "type": "string",
-            "format": "tel"
+            "nullable": true
           },
-          "passwordHash": {
-            "minLength": 6,
-            "type": "string"
+          "birthDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
